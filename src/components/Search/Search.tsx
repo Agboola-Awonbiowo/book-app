@@ -11,7 +11,6 @@ const Search: FC<searchProps> = (props) => {
       className="block p-4 pl-10 focus:outline-none text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-blue-500"
       placeholder="Search..."
     />
-    // <button>Search</button>
   );
 }
 
