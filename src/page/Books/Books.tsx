@@ -20,6 +20,7 @@ function Books() {
       return book[key].toString().toLowerCase().includes(searchInput);
     });
   });
+  console.log(books)
   return (
     <>
       <div className="mb-12 mt-10 flex justify-center">

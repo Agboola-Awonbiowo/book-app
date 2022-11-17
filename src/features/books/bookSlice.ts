@@ -7,11 +7,12 @@ export const getBooks = createAsyncThunk(
   'book/getBooks',
   async (data, thunkApi) => {
     const getBooksEndPoint = await axios.get<bookData[]>(
-      'https://www.anapioficeandfire.com/api/books'
+      'https://www.anapioficeandfire.com/api/books?page=1&pageSize=50'
     );
     const getCharactersEndPoint = await axios.get<bookData[]>(
-      'https://www.anapioficeandfire.com/api/characters'
+      'https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50'
     );
+   
     try {
       const response = axios
         .all([getBooksEndPoint, getCharactersEndPoint])
