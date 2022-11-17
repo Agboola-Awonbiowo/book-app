@@ -29,11 +29,17 @@ This a book app where user can search with the following parameters
 * Authors
 * Characters Name
 * Character Culture
+# Discussion
+
+I used [create-react-app](https://create-react-app.dev/docs/adding-typescript/) to generate the scaffolding for this app
 
 * Create books component to render all the books
 * Create card component to render each book
 * Create search component to search for book
+
+I used the following technologies:
+
+* React / Typescript
 * axios for parallel api calls
 * ReduxTookit for state management
 * tailwindcss for styling
-
