@@ -1,11 +1,9 @@
-import React from 'react';
 import Books from './page/Books/Books';
-
 
 function App() {
  
   return (
-    <div>
+    <div className='flex flex-col p-4'>
       <Books />
     </div>
   );
