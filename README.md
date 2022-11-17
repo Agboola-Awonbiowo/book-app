@@ -35,4 +35,5 @@ This a book app where user can search with the following parameters
 * Create search component to search for book
 * axios for parallel api calls
 * ReduxTookit for state management
+* tailwindcss for styling
 
